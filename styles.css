@@ -1,0 +1,177 @@
+*{
+    margin:0;
+    padding:0;
+    
+}
+body{
+    font-size: 16px;
+    font-family: 'Kanit', sans-serif;
+}
+header{
+    background-color: #C7A17D;
+}
+nav{
+    display: flex;
+    margin:auto;
+    justify-content: space-between;
+    width: 80%;
+   
+  
+}
+.list-nav , ul, a{
+    display: flex;
+padding: 0 18px;
+    align-self: center;
+    text-decoration: none;
+    color: #623712;
+    font-weight: bold;
+    font-size: 18px;
+
+    
+}
+.list-nav , ul, li{
+    list-style: none;
+}
+
+.logocoffee{
+    font-size: 35px;
+    font-family: 'Rubik Glitch', cursive;
+}
+.container-d{
+    display: flex;
+    width: 80%;
+    height: 450px;
+    margin:auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-right{
+    width: 35%;
+    
+}
+.tittle-right{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: bolder;
+
+}
+.parghr1{
+    font-size: 20px;
+    padding: 10px;
+    line-height: 28px;
+    font-weight: 400;
+}
+.hero-left img{
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+
+   
+}
+.hero-right button{
+    padding:5px 10px;
+  margin-top: 1px;
+  border: none;
+  color: #BC6C25;
+  background-color: black;
+  border-radius: 8px;
+position: absolute;
+left: 260px;
+}
+.cofee-randm{
+    display: flex;
+ 
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: space-evenly;
+    width: 90%;
+    height: 500px;
+    margin-left: 5em;
+   
+ 
+
+}
+.picture{
+    
+    display: flex;
+    justify-content: space-around;
+
+}
+.cofee-randm img{
+    width:181px;
+    height: 181px;
+    border-radius: 8px;
+    border:  1px solid black;
+
+}
+
+.cofee-randm p{
+    width: 70%;
+    
+}
+.info{
+    margin: 0 auto;
+}
+ .info span {
+    font-size: 50px;
+    font-weight: 400;
+
+ }
+ .quotes{
+    background-color: #BC6C25;
+    color: white;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .quotes div{
+    width: 50%;
+}
+
+.quotes p{
+    font-size: 36px;
+    opacity: 0.8;
+    font-style: italic;
+}
+.quotes span{
+    position: absolute;
+    left:800px;
+    font-size: 20px;
+    font-weight: 900;
+    color: black;
+    opacity: 0.9;
+}
+.cofee-shop{
+    
+    font-size: 40px;
+    height: 200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.cofee-shop p{
+    font-size: 20px;
+}
+.cofee-shop button{
+    padding: 8px 12px;
+    border: none;
+    margin-left: 20px;
+    background-color: #BC6C25;
+
+    border-radius: 30px;
+}
+footer{
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: #f9faf8;
+
+}
+footer {
+    background-color: black;
+}
